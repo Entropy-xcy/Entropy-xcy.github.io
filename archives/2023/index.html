@@ -1,140 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-<meta name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <meta name="author" content="John Doe">
-
-
-
-
-
-<title>Archives: 2023 | Hexo</title>
-
-
-
-    <link rel="icon" href="/favicon.ico">
-
-
-
-
-    <!-- stylesheets list from _config.yml -->
-    
-    <link rel="stylesheet" href="/css/style.css">
-    
-
-
-
-    <!-- scripts list from _config.yml -->
-    
-    <script src="/js/script.js"></script>
-    
-    <script src="/js/tocbot.min.js"></script>
-    
-
-
-
-    
-    
-        
-    
-
-
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-<body>
-    <script>
-        // this function is used to check current theme before page loaded.
-        (() => {
-            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
-            const isDark = currentTheme === 'dark';
-            const pagebody = document.getElementsByTagName('body')[0]
-            if (isDark) {
-                pagebody.classList.add('dark-theme');
-                // mobile
-                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
-            } else {
-                pagebody.classList.remove('dark-theme');
-                // mobile
-                document.getElementById("mobile-toggle-theme").innerText = "· Light"
-            }
-        })();
-    </script>
-
-    <div class="wrapper">
-        <header>
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-header header-logo"><a href="/">Entropy Xu&#39;s Homepage</a></div>
-            <div class="menu navbar-right">
-                
-                    <a class="menu-item" href="/about">About Me</a>
-                
-                    <a class="menu-item" href="/publications">Publications</a>
-                
-                <input id="switch_default" type="checkbox" class="switch_default">
-                <label for="switch_default" class="toggleBtn"></label>
-            </div>
-        </div>
-    </nav>
-
-    
-    <nav class="navbar-mobile" id="nav-mobile">
-        <div class="container">
-            <div class="navbar-header">
-                <div>
-                    <a href="/">Entropy Xu&#39;s Homepage</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
-                </div>
-                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
-            </div>
-            <div class="menu" id="mobile-menu">
-                
-                    <a class="menu-item" href="/about">About Me</a>
-                
-                    <a class="menu-item" href="/publications">Publications</a>
-                
-            </div>
-        </div>
-    </nav>
-
-</header>
-<script>
-    var mobileBtn = function f() {
-        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
-        var mobileMenu = document.getElementById("mobile-menu");
-        if(toggleMenu.classList.contains("active")){
-           toggleMenu.classList.remove("active")
-            mobileMenu.classList.remove("active")
-        }else{
-            toggleMenu.classList.add("active")
-            mobileMenu.classList.add("active")
-        }
-    }
-</script>
-            <div class="main">
-                <div class="post-wrap archive">
-    
-    
-        
-
-        
-            <h3>2023</h3>
-        
-
-        <article class="archive-item">
-            <a class="archive-item-link" href="/2023/10/22/hello-world/">Hello World</a>
-            <span class="archive-item-date">October 22, 2023</span>
-        </article>
-    
-    
-</div>
-            </div>
-            
-    </div>
-</body>
-
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Entropy Xu's Homepage</title><meta name="author" content="Entropy Xu|徐策羽"><link rel="shortcut icon" href="/images/entropy-xu.jpg"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><meta name="generator" content="Hexo 6.3.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">Entropy Xu's Homepage</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/"> About</a></li><li class="menus_item"><a class="site-page" href="/publications"> Publications</a></li></ul></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/images/entropy-xu.jpg" onerror="this.onerror=null;this.src='/img/profile.png'" alt="avatar"></div><div class="author-discrip"><h3>Entropy Xu|徐策羽</h3><p class="author-bio">Ph.D. candidate at Duke University studying Computer Architecture and Machine Learning.</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-icons"><li><a class="social-icon" href="https://twitter.com/EntropyXu" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li><li><a class="social-icon" href="https://github.com/Entropy-xcy" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li><li><a class="social-icon" href="https://www.linkedin.com/in/entropyxu/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li><li><a class="social-icon" href="mailto:ceyu.xu@duke.edu" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a></li></ul><ul class="social-links"><li><a class="e-social-link" href="https://scholar.google.com/citations?user=FMnd3eYAAAAJ&amp;hl=en" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="https://orcid.org/0000-0002-2668-6456" target="_blank"><i class="fab fa-orcid" aria-hidden="true"></i><span>ORCID</span></a></li></ul></div><a class="cv-links" href="/attaches/Entropy_Xu_CV.pdf" target="_blank"><i class="fas fa-file-pdf" aria-hidden="true"><span>My Detail CV.</span></i></a></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><article><p>I am currently a Ph.D. candidate at Computer Science Department, Duke University advised by <a target="_blank" rel="noopener" href="https://www.lisawuwills.com/">Prof. Lisa Wu Wills</a>.<br>My main research interest is about the intersection of computer architecture and machine learning.<br>There are two main directions I am working on:</p>
+<ol>
+<li>Designing efficient computer architecture for machine learning algorithms.</li>
+<li>Designing machine learning algorithms for efficient computer architectures.</li>
+</ol>
+<p>Before I came to Duke, I received my B.S. degree in Computer Engineering from University of California, Irvine in 2020.</p>
+<h2 id="Contact-Details"><a href="#Contact-Details" class="headerlink" title="Contact Details"></a>Contact Details</h2><ul>
+<li>Work Email: <a href="mailto:ceyu.xu@duke.edu">ceyu.xu@duke.edu</a></li>
+<li>Personal Email: <a href="mailto:entropy.xcy@hotmail.com">entropy.xcy@hotmail.com</a></li>
+<li>Address: LSRC D343, 308 Research Dr, Durham, NC 27708</li>
+<li>Tel: +1 (949) 351-1197</li>
+</ul>
+<h2 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a>Publications</h2><p><strong>[ISCA 2022] SNS’s not a Synthesizer: A Deep-Learning-Based Synthesis Predictor</strong><br><strong>Ceyu Xu</strong>, Chris Kjellqvist, and Lisa Wu Wills. In The 49th Annual International Symposium on Computer Architecture (ISCA 22).</p>
+<p><strong>[Micro 2023] Fast, Robust, and Transferable Prediction for Hardware Logic Synthesis (SNS v2)</strong><br><strong>Ceyu Xu</strong>, Pragya Sharma, Tianshu Wang, and Lisa Wu Wills. In 2023 56th IEEE&#x2F;ACM International Symposium on Microarchitecture (MICRO).</p>
+<p><strong>[CODES&#x2F;ISSS 2023] Special Session: Machine Learning for Embedded System Design</strong><br>Erika S. Alcorta, Andreas Gerstlauer, Chenhui Deng, Qi Sun, Zhiru Zhang, <strong>Ceyu Xu</strong>, Lisa Wu Wills, Daniela Sanchez Lopera,Wolfgang Ecker, Siddharth Garg, and Jiang Hu. In 2023 International Conference on Hardware&#x2F;Software Codesign and System Synthesis (CODES&#x2F;ISSS ’23 Companion).</p>
+<p><strong>[ASPLOS 2022] ProSE: The Architecture and Design of a Protein Discovery Engine</strong><br>Eyes Robson*, <strong>Ceyu Xu</strong>* (Co-first author), and Lisa Wu Wills. In Proceedings of the 27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2022).</p>
+<p><strong>[ISPASS 2023] PyTFHE: An End-to-End Compilation and Execution Framework for Fully Homomorphic Encryption Applications</strong><br>Jiaao Ma, <strong>Ceyu Xu</strong>, and Lisa Wu Wills. 2022 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS).<br><strong>(ISPASS 2023 Best Paper Award)</strong></p>
+</article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/"> About</a></li><li class="nav_item"><a class="nav-page" href="/publications"> Publications</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2023 by Entropy Xu|徐策羽</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script></body></html>
